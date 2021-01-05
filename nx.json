@@ -1,7 +1,7 @@
 {
   "npmScope": "nrwl-airlines",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "implicitDependencies": {
     "angular.json": "*",
@@ -23,6 +23,9 @@
     }
   },
   "projects": {
+    "booking-feature-flight-search": {
+      "tags": ["type:feature", "scope:booking"]
+    },
     "booking-app": {
       "tags": []
     },
